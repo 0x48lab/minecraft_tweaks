@@ -1,0 +1,19 @@
+name: minecraft_tweaks
+version: '${version}'
+main: com.hacklab.minecraft_tweaks.Main
+api-version: 1.19
+commands:
+  position:
+    description: "Position command"
+    usage: "/position"
+    aliases: [ pos ]
+    default: true
+  home:
+    description: "Home command"
+    usage: "/home"
+    default: true
+  sleep:
+    description: "Sleep command"
+    usage: "/sleep"
+    aliases: [ bed ]
+    default: true
